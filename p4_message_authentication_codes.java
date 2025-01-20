@@ -6,7 +6,7 @@ class MD5 {
 public static String getMd5(String input)
 {
 try {
-
+    
 MessageDigest md = MessageDigest.getInstance("MD5");
 
 byte[] messageDigest = md.digest(input.getBytes());
