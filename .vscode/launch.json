@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "p7_AES",
+            "request": "launch",
+            "mainClass": "p7_AES",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "type": "java",
+            "name": "p8_DHClient",
+            "request": "launch",
+            "mainClass": "p8_DHClient",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "type": "java",
+            "name": "p8_DHServer",
+            "request": "launch",
+            "mainClass": "p8_DHServer",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "type": "java",
+            "name": "p9_RSADemo",
+            "request": "launch",
+            "mainClass": "p9_RSADemo",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "type": "java",
+            "name": "OneTimePad",
+            "request": "launch",
+            "mainClass": "OneTimePad",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "type": "java",
+            "name": "p6_DES",
+            "request": "launch",
+            "mainClass": "p6_DES",
+            "projectName": "securecoading_ebdc85fa"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
